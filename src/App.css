@@ -1,0 +1,14 @@
+.container {
+  
+  width: 800px;
+  height:fit-content;
+  background-color: rgba(1, 36, 1, 0.877);
+  padding: 30px 30px 30px 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 50px;
+  box-shadow: -5px 0px 15px 0px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+

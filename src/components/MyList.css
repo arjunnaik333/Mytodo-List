@@ -1,0 +1,125 @@
+.Main {
+    
+    width: 50vw;
+    background-color: aqua;
+    padding: 20px ;
+    
+
+}
+
+.Header {
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    margin-bottom: 20px;
+  
+}
+
+.input_todo  {
+    width: 75%;
+    margin-right: 20px;
+    height: 20px;
+    }
+
+  .Add_button {
+  height: 25px;
+  padding: 0px 5px;
+
+  }  
+
+  .item_list {
+    display: inline-flexbox;
+    color: rgb(14, 51, 83);
+    font-size: 18px;
+    
+
+}
+
+.button_container {
+    float: right;
+}
+
+.todo_actions {
+    float: right;
+}
+
+.button_menu {
+    float: right;
+}
+
+button {
+    font-size: 12px;
+    background-color: rgb(250, 78, 51);
+    color: #fff;
+    border-radius: 3px;
+    border: none;
+    padding: 4px 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: aqua;
+}
+
+button:active {
+    background-color: blueviolet;
+}
+
+button:focus{
+    outline: 0;
+}
+
+.list_container {
+    border: 1px solid black;
+        border-radius: 3px;
+        margin-right: 50px;
+
+
+}
+
+.line {
+    color: red;
+    font-size: 12px;
+
+}
+.add_image, .complete_task{
+    display: flex;
+    width:20px;
+    height: 20px;
+}
+.inputwrap{
+    display: flex;
+}
+
+.complete_task {
+    display: flex;
+    width: max-content;
+    height: 14px;
+}
+
+.delete_task {
+    display: flex;
+    width: max-content;
+    height: 14px;
+}
+.edit_task {
+    display: flex;
+    width: max-content;
+    height: 14px;
+}
+
+.edit_input {
+    height: 17px;
+}
+
+.save_task {
+    display: flex;
+    width: max-content;
+    height: 14px;
+}
+.cancel_task {
+    display: flex;
+    width: max-content;
+    height: 14px;
+}
